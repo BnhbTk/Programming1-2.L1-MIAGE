@@ -1,8 +1,4 @@
 from accounts import *
-import math
-
-
-
 
 def menu():
     while True:
