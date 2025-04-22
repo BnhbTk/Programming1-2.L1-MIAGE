@@ -33,6 +33,7 @@ def compute_by_customer(transactions,prices):
     return res
 
 # code to load data from file
+# data are not real
 with open("purchase.csv") as f:
     reader=csv.DictReader(f)
     transactions=[e for e in reader]
